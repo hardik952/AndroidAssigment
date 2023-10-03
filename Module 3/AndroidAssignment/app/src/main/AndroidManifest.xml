@@ -13,7 +13,7 @@
         android:theme="@style/Theme.AndroidAssignment"
         tools:targetApi="31">
         <activity
-            android:name=".MyActivity2"
+            android:name=".ForCMD.MyActivity2"
             android:exported="false" />
         <activity
             android:name=".MainActivity2"
