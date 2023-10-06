@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.example.module_4.Que1.ReverseNumber
+import com.example.module_4.Que2.BetweenNumbers
 import com.example.module_4.databinding.ActivityMainBinding
 import com.example.module_4.databinding.QuestionListLayoutBinding
 
@@ -30,7 +31,7 @@ class QuestionListAdapter(var context: Context,var questionList: MutableList<Que
         holder.binding.tvQuestion.setOnClickListener {
             when(questions.id){
                 1 -> context.startActivity(Intent(context,ReverseNumber::class.java))
-                2 -> context.startActivity(Intent(context,ReverseNumber::class.java))
+                2 -> context.startActivity(Intent(context,BetweenNumbers::class.java))
                 3 -> context.startActivity(Intent(context,ReverseNumber::class.java))
                 4 -> context.startActivity(Intent(context,ReverseNumber::class.java))
                 5 -> context.startActivity(Intent(context,ReverseNumber::class.java))
