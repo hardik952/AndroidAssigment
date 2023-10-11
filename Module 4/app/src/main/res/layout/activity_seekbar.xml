@@ -11,18 +11,6 @@
     tools:context=".Que16.SeekbarActivity">
 
     <TextView
-        android:id="@+id/textView7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#D3CECE"
-        android:padding="10dp"
-        android:gravity="top"
-        android:text="16. Write a program you have taken three seek bar controls. From three Seekbar
-which Seek bar value changed the background color of device will be changed."
-        android:textSize="16sp"
-        android:textStyle="bold"/>
-
-    <TextView
         android:id="@+id/tv_red"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
