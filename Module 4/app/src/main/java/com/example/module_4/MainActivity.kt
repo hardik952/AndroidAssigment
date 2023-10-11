@@ -38,15 +38,6 @@ class MainActivity : AppCompatActivity() {
                 4, "4. Write a code to display login form when click on login button and registration form when click on registration button on single activity using fragment"))
         questionList.add(
             Question(
-                5, "5. Create an application to load google url into webview also manage forward and backward redirect"))
-        questionList.add(
-            Question(
-                6, "6. In Previous Practical write code to check weather internet connection is available or not if"))
-        questionList.add(
-            Question(
-                7, "7. no internet connection then display message accordingly"))
-        questionList.add(
-            Question(
                 8, "8. create an application to hide TextView when first button click and show when second button click "))
         questionList.add(
             Question(

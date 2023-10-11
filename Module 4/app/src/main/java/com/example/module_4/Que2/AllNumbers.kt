@@ -22,7 +22,7 @@ class AllNumbers : AppCompatActivity() {
         }
 
         binding.tvNumbers.text = """
-            Series = ${numbers}
+            Series = $numbers
         """.trimIndent()
     }
 }

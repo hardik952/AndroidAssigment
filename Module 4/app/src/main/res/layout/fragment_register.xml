@@ -57,7 +57,12 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="16dp" />
-
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="@color/black" />
 
         <View
             android:layout_width="match_parent"

@@ -13,13 +13,16 @@ class HideTextActivity : AppCompatActivity() {
         binding = ActivityHideTextBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        var text = binding.tvText.text.toString().trim()
 
         binding.btnHide.setOnClickListener {
-            binding.tvText.visibility = View.GONE
+
+//            binding.tvText.visibility = View.GONE - if text is already written in textview
+              binding.tvText.text = " "
         }
         binding.btnShow.setOnClickListener {
-            binding.tvText.visibility = View.VISIBLE
+
+//            binding.tvText.visibility = View.VISIBLE
+              binding.tvText.text = "My name is Rahul"
         }
     }
 }

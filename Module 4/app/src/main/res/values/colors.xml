@@ -6,5 +6,12 @@
     <color name="etText">#A1A8B0</color>
     <color name="black">#FF000000</color>
     <color name="bg">#33A0A0A0</color>
+    <color name="red">#FADC0909</color>
+    <color name="green">#FD53E414</color>
+    <color name="blue">#FA0524C1</color>
+    <color name="pink">#F06292</color>
+    <color name="orange">#ED8326</color>
+    <color name="sky">#49B7E8</color>
+
 
 </resources>

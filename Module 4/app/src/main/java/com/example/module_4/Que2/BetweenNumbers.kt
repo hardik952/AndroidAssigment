@@ -14,8 +14,8 @@ class BetweenNumbers : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnDone.setOnClickListener {
-            var num1 =  binding.etNum1.text.toString().toInt()
-            var num2 =  binding.etNum2.text.toString().toInt()
+            var num1 =  binding.etNum1.text.toString().trim().toInt()
+            var num2 =  binding.etNum2.text.toString().trim().toInt()
 
 
             var intent = Intent(this,AllNumbers::class.java)
