@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AndroidOffline_OnlineDatabase" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#06A0B5</item>
+    </style>
+
+    <style name="DialogCustomTheme"><item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+
+    <style name="Theme.AndroidOffline_OnlineDatabase" parent="Base.Theme.AndroidOffline_OnlineDatabase" />
+</resources>

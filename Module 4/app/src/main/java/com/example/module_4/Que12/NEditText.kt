@@ -3,7 +3,6 @@ package com.example.module_4.Que12
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.EditText
-import android.widget.Toast
 import com.example.module_4.databinding.ActivityNeditTextBinding
 
 
@@ -27,7 +26,8 @@ class NEditText : AppCompatActivity() {
         }
 
         binding.btnReset.setOnClickListener {
-            Toast.makeText(this, "Ask sir How to reset it!", Toast.LENGTH_SHORT).show()
+            binding.etNumber.text.clear()
+           binding.layout.removeAllViews()
         }
 
     }
