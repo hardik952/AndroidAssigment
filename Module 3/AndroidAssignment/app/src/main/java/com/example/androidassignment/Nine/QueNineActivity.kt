@@ -12,8 +12,8 @@ class QueNineActivity : AppCompatActivity() {
         binding = ActivityQueNine2Binding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.btnGoToFragment.setOnClickListener {
-            var queNineFragment = QueNineFragment()
 
+            var queNineFragment = QueNineFragment()
             var manager = supportFragmentManager
             var transaction = manager.beginTransaction()
             transaction.add(R.id.fragment_container, queNineFragment)
